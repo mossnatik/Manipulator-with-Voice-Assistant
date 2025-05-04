@@ -312,7 +312,6 @@ def main():
                 break
                 
 
-
 if __name__ == '__main__':
     print('Загрузка данных...')
     speaker('Загрузка данных...')
