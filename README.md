@@ -1,1 +1,73 @@
-Manipulator by RAMPS1.4 with Voice Assistant
+Manipulator by RAMPS1.4 with Voice Assistant (russian language)
+
+The manipulator is controlled by a RAMPS1 3D printer board.4. Based on voice commands, a G-code is sent to the board via USB.
+A 3D assembly of the robot arm can be found on GrabCAD: https://grabcad.com/library/manipulator-12
+
+The main code is in the file deep.py
+From the file words.py A dictionary is imported containing the names of the functions corresponding to the user's requests.
+The words_data file.json contains a complete dictionary of already developed phrases and ready-made commands in the robot's arsenal.
+The main functions that set the robot's mechanisms in motion are in skills.py .
+Commands containing interaction with the camera are located in camera.py
+config.The json contains the name of the port to which the RAMPS1.4 card is connected.
+
+Voice assistant is AVAILABLE in RUSSIAN ONLY
+READY-MADE VOICE COMMANDS:
+each command must contain a TRIGGER WORD (ADDRESSING the robot)
+***drive control***
+move the X/Y/Z axis by *G-code units*
+move the W/V axis by *degrees*
+open/close the grip
+turn on/off the magnet (with the magnet in the working position the organ)
+
+***sequence of actions***
+hello /hello
+for now / I'm leaving
+check the operation of all engines / take a test
+
+***interaction with the camera***
+follow the camera/follow the color (tracking of a red object is implemented)
+pick up an object(orientation to a red object)
+
+***Support teams***
+turn on/turn off the manual control
+turn on/turn on/turn off the fans/cooling/blowing
+turn on/turn off the power
+
+Similar formulations are perceived (yes/no/cancel voice confirmation is required). If the answer is "no", specify the function to perform the manipulator's actions.
+
+
+***********перевод**********
+Манипулятор управляется платой для 3д-принтера RAMPS1.4. Опираясь на голосовые команды на плату по USB отправляется G-код.
+3д-сборку робота-манипулятора можно найти на GrabCAD: https://grabcad.com/library/manipulator-12
+
+Основной код находится в файле deep.py
+Из файла words.py импортируется словарь, содержащий названия функций, соответствующих запросам пользователя.
+Файл words_data.json содержит полный словарь уже наработанных фраз и готовых команд в арсенале робота.
+Основные функции, приводящие механизмы робота в движение, находятся в skills.py.
+Команды, содержащие взаимодействие с камерой, находятся в camera.py
+config.json содержит имя порта, к которому подключена плата RAMPS1.4
+
+Голосовой ассистент ТОЛЬКО на РУССКОМ ЯЗЫКЕ
+ГОТОВЫЕ ГОЛОСОВЫЕ КОМАНДЫ:
+каждая команда должна содержать СЛОВО-ТРИГГЕР (ОБРАЩЕНИЕ к роботу)
+***управление приводами***
+перемести ось X/Y/Z на *единицы G-кода*
+перемести ось W/V на *градусы*
+открой/закрой захват
+включи/отключи магнит (с магнитом в рабочем органе)
+
+***последовательность действий***
+привет/здорова
+пока/я ухожу
+проверь работу всех моторов/проведи тест
+
+***взаимодействие с камерой***
+следи по камере/следи за цветом(реализовано слежение за красным объектом)
+возьми предмет(ориентация на красный объект)
+
+***вспомогательные команды***
+включи/запусти ручное управление
+включи/запусти/выключи вентиляторы/охлаждение/обдув
+включи/выключи питание
+
+Воспринимаются схожие формулировки (требуется голосовое подтверждение да/нет/отмена). При ответе "нет" следует указать функцию для выполнения действий манипулятора.
