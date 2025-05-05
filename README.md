@@ -3,12 +3,16 @@ Manipulator by RAMPS1.4 with Voice Assistant (russian language)
 The manipulator is controlled by a RAMPS1 3D printer board.4. Based on voice commands, a G-code is sent to the board via USB.
 A 3D assembly of the robot arm can be found on GrabCAD: https://grabcad.com/library/manipulator-12
 
+![image](https://github.com/user-attachments/assets/7be853da-c200-420a-b2b4-3142e79782d6)
+
+
 The main code is in the file deep.py
 From the file words.py A dictionary is imported containing the names of the functions corresponding to the user's requests.
 The words_data file.json contains a complete dictionary of already developed phrases and ready-made commands in the robot's arsenal.
 The main functions that set the robot's mechanisms in motion are in skills.py .
 Commands containing interaction with the camera are located in camera.py
 config.The json contains the name of the port to which the RAMPS1.4 card is connected.
+
 
 Voice assistant is AVAILABLE in RUSSIAN ONLY
 READY-MADE VOICE COMMANDS:
@@ -35,7 +39,8 @@ turn on/turn off the power
 
 Similar formulations are perceived (yes/no/cancel voice confirmation is required). If the answer is "no", specify the function to perform the manipulator's actions.
 
-
+****************************
+****************************
 ***********перевод**********
 Манипулятор управляется платой для 3д-принтера RAMPS1.4. Опираясь на голосовые команды на плату по USB отправляется G-код.
 3д-сборку робота-манипулятора можно найти на GrabCAD: https://grabcad.com/library/manipulator-12
