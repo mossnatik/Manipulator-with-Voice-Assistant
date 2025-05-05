@@ -1,6 +1,6 @@
 Manipulator by RAMPS1.4 with Voice Assistant (russian language)
 Bauman Moscow State Technical University College of Space Instrumentation.
-Pomozov Alrksandr, Sekachev Artem, Kaygorodtsev Gleb.
+Pomozov Aleksandr, Sekachev Artem, Kaygorodtsev Gleb.
 ![image](https://github.com/user-attachments/assets/80c0b69d-8105-497b-8331-15ae5efffb6f)
 
 More information *documantation* (on russian)
