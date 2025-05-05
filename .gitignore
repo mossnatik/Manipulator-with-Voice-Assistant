@@ -22415,3 +22415,4 @@ venv/Scripts/weasel.exe
 venv/Scripts/__pycache__/pywin32_postinstall.cpython-311.pyc
 venv/Scripts/__pycache__/pywin32_testall.cpython-311.pyc
 venv/share/man/man1/ttx.1
+deeper.py
