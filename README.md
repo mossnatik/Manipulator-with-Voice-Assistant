@@ -6,7 +6,7 @@ Pomozov Alrksandr, Sekachev Artem, Kaygorodtsev Gleb.
 More information *documantation* (on russian)
 https://disk.yandex.ru/d/msD6nZgDhOpB-w
 
-The manipulator is controlled by a RAMPS1 3D printer board.4. Based on voice commands, a G-code is sent to the board via USB.
+The manipulator is controlled by a RAMPS1.4 (3D printer board). Based on voice commands, a G-code is sent to the board via USB.
 A 3D assembly of the robot arm can be found on GrabCAD: https://grabcad.com/library/manipulator-12
 
 ![image](https://github.com/user-attachments/assets/7be853da-c200-420a-b2b4-3142e79782d6)
