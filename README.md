@@ -48,6 +48,14 @@ turn on/turn off the power
 
 Similar formulations are perceived (yes/no/cancel voice confirmation is required). If the answer is "no", specify the function to perform the manipulator's actions.
 
+Libraries for working
+queue
+sounddevice
+vosk
+sklearn
+logging
+opencv
+
 ![image](https://github.com/user-attachments/assets/27726fa1-4c1f-4374-b5d5-1cd04bc913eb)
 
 
@@ -94,3 +102,12 @@ config.json содержит имя порта, к которому подклю
 включи/выключи питание
 
 Воспринимаются схожие формулировки (требуется голосовое подтверждение да/нет/отмена). При ответе "нет" следует указать функцию для выполнения действий манипулятора.
+
+Библиотеки для работы
+
+queue - для обработки аудиопотока
+sounddevice (sd) - запись звука с микрофона
+vosk - распознавание речи (на основе Kaldi)
+sklearn - машинное обучение для классификации команд
+logging - логирование ошибок
+opencv - компьютерное зрение
